@@ -13,7 +13,7 @@
 ## Pages
 
 <ul>
-  {% for post in site.posts %}
+  {% for page in site.pages %}
     <li>
       <a href="{{ page.url }}">{{ page.title }}</a>
     </li>
